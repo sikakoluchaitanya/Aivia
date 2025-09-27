@@ -18,7 +18,7 @@ export default function Home() {
 
   useEffect(() => {
     if (session?.user) {
-      router.replace("/");
+      router.replace("/dashboard");
     }
   }, [session, router]);
 
